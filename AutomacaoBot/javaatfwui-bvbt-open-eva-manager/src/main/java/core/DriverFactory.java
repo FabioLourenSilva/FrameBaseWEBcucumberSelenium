@@ -13,7 +13,7 @@ public class DriverFactory {
     private static WebDriver driver;
 
     public void createDriver() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\fabio_\\Documents\\Drive\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/fabiolourenco/Desktop/WorkspacePessoal/FrameBaseForModal/AutomacaoBot/javaatfwui-bvbt-open-eva-manager/src/main/resources/Drive/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);

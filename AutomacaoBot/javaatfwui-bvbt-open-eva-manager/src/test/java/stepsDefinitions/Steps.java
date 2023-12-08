@@ -22,13 +22,7 @@ public class Steps {
     @Given("que acessei o site do modal \\Web")
     public void que_acessei_o_site_do_modal_web() throws InterruptedException {
         loginPage.navegarAteSiteModal();
-        homePage.clicarBotaoAceitarCookies();
-        Thread.sleep(5000);
-
-//        homePage.clicarBotaoAceitarCookies();
-//        homePage.aceitarTermos();
-//        dialogManagerPage.clicarBotaoChatBotWebMinhaBV();
-//        dialogManagerPage.validarTextoBoasVindasMinhaBV();
+        homePage.openAccount();
     }
 
     @When("eu digitar a intencao BV {string}")

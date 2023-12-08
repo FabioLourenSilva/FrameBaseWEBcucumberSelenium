@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepsDefinitions",
         tags = "@MODALTEST1",
         dryRun = false,
-        plugin = {"pretty", "html:evidencias/MODAL-02-05.html"}
+        plugin = {"pretty", "html:evidencias/evidenciaProjectBase-08-12.html"}
 )
 
 public class TestRunner {
