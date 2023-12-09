@@ -5,9 +5,8 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends CommonsBasePage {
 
-
     private final String URL_SITE_MODAL = "https://www.modal.com.br/";
-
+    private final String URL_SITE_TESTE1 = "https://www.grocerycrud.com/v1.x/demo/bootstrap_theme_v4";
     private final String LOGIN = "";
     private final String SENHA = "";
 
