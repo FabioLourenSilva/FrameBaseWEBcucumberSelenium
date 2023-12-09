@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AutomacaoBot/javaatfwui-bvbt-open-eva-manager/Automacao_Eva.iml" filepath="$PROJECT_DIR$/AutomacaoBot/javaatfwui-bvbt-open-eva-manager/Automacao_Eva.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/projetoModal.iml" filepath="$PROJECT_DIR$/.idea/projetoModal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projectBase.iml" filepath="$PROJECT_DIR$/.idea/projectBase.iml" />
     </modules>
   </component>
 </project>
