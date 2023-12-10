@@ -1,19 +1,18 @@
 package core;
 
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 
 public class DriverFactory {
 
     private static WebDriver driver;
+    private static String webDriver = "webdriver.chrome.driver";
+    private static String pathDriver = "/Users/fabiolourenco/Desktop/WorkspacePessoal/AutomationWEB/src/main/resources/Drive/chromedriver";
 
     public void createDriver() {
-        System.setProperty("webdriver.chrome.driver","/Users/fabiolourenco/Desktop/WorkspacePessoal/AutomationWEB/src/main/resources/Drive/chromedriver");
+        System.setProperty(webDriver,pathDriver);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
