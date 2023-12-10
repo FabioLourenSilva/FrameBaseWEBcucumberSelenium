@@ -5,8 +5,7 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends CommonsBasePage {
 
-    private final String URL_SITE_MODAL = "https://www.modal.com.br/";
-    private final String URL_SITE_TESTE1 = "https://www.grocerycrud.com/v1.x/demo/bootstrap_theme_v4";
+    private final String URL_SITE1 = "https://www.grocerycrud.com/v1.x/demo/bootstrap_theme_v4";
     private final String LOGIN = "";
     private final String SENHA = "";
 
@@ -16,8 +15,8 @@ public class LoginPage extends CommonsBasePage {
     By inputSenha = By.id("password");
     By buttonEntrar = By.name("login");
 
-    public void navegarAteSiteModal() {
-        getDriver().navigate().to(URL_SITE_MODAL);
+    public void goToSiteGrocercrud() {
+        getDriver().navigate().to(URL_SITE1);
     }
 
     public void efetuarLogin() {

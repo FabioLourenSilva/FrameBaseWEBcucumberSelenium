@@ -19,10 +19,19 @@ public class Steps {
 
     DriverFactory drive = new DriverFactory();
 
-    @Given("que acessei o site do modal \\Web")
-    public void que_acessei_o_site_do_modal_web() throws InterruptedException {
-        loginPage.navegarAteSiteModal();
-        homePage.openAccount();
+    @Given("que acessei a url \\Web")
+    public void que_acessei_a_url () {
+        loginPage.goToSiteGrocercrud();
+    }
+
+    @When("clico no button refresh")
+    public void clico_no_button_refresh() {
+        homePage.refreshListGrocercrud();
+    }
+
+    @Then("a lista atualiza")
+    public void a_lista_atualiza() {
+        //for implementation
     }
 
     @When("eu digitar a intencao BV {string}")

@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "features",
         glue = "stepsDefinitions",
-        tags = "@MODALTEST1",
-//        dryRun = false,
+        tags = "@TEST1",
+//        dryRun = true,
         plugin = {"pretty", "html:evidencias/evidenciaProjectBase-08-12.html"}
 )
 

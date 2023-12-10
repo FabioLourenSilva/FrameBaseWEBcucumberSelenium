@@ -20,7 +20,6 @@ public class DriverFactory {
 
     public void CriarNovaAbaEtrocarAba(){
         driver.switchTo().newWindow(WindowType.TAB);
-
     }
 
     public void trocarAba(){
@@ -37,6 +36,5 @@ public class DriverFactory {
     public WebDriver getDriver() {
         return driver;
     }
-
 
 }
