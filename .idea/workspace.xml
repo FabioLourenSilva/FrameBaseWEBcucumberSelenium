@@ -5,226 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83f0a06c-14e2-4e58-b820-28f6f53816fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/evidencias/MODAL-02-05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/MODAL-23-04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidencias/MODAL-27-04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evidenciasWord/evidencia-word.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Como funciona/comoFuncionaBvMerece.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Como funciona/comoFuncionaOrganizador.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Como funciona/comoFuncionaPix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Limite do cartao de credito/ajustarAumentarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Limite do cartao de credito/consultarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Limite do cartao de credito/liberarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Limite do cartao de credito/reducaoLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Organizador/ativarBoletoVirtualDDA.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Organizador/desativarBoletoVirtualDDA.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Organizador/problemasOrganizador.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Organizador/programarDebitoAutomatico.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Organizador/quantoCusta.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/cadastroChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/criarQRCodePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/devolverPix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/excluirChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/portabilidadeDeChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Pix/reinvidicacaoDePosseChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/Todo/transbordo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/alteracaoCadastralResetDeSenha.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/anteciparPagamentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/autorizarCelular.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/bloqueioDeCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/campanha.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/comprovanteDePegamentoTransferencia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/contestarCompra.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/cumprimentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/dataDaFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/desbloqueioDeCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/despedida.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/documentoDeQuitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/elogio.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/emQuePossoAjudar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/excluir.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/extrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/gravame.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/hobby.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/idade.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/informeRendimentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/insultoProblemasGenericos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/localNascimento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/ola.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/onboardingContaDigital.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/pagamentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/parcelamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/pedidoParaSair.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/problemasPontosMilhas.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/rastreioCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/renegociacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/saqueComCartaoBv.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/segundaViaDeContrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/solicitacaoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/timeQueTorce.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/transbordo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/transferenciaFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/transferencias.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/trocarDataDaFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/verFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/BDA/voceUmRobo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/VerFatura/consultarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/acompanharAprovacaoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/acordoAmigavel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/cancelamentoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/cancelarPortabilidade_Excluir.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/chavePixSumiu.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/comoFuncionaPortabilidade.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/depositoEmDinheiroNaContaBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/dinheiroNaoCaiuNaConta.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/mudancaNumeroBancoBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/portabilidadeDeSalario.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/ContaCartão/quantoCustaPortabilidadeDeSalario.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/Emprestimos/emprestimo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/Emprestimos/refinanciar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/Parceiros BV/lojasParceiras.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/Parceiros BV/queroSerSouParceiroBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/assuntosSensiveis.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/carne.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/compensaçãoDePagamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/contatosBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/contratacaoProdutoBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/ouvidoria.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Curadoria/siteDoBv.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Boletos/antecipacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Boletos/dda.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Boletos/pagamentoBoletoErrado.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Boletos/quitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Emprestimo/comprovantePGT.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Emprestimo/substituicaoDeVeiculoCVG.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/Emprestimo/substituicaoDeVeiculoProdVeiculos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/cartaDeAnuencia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/comoFunciona_apreensao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/copiaDeContrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/creditoFacil.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/creditoPessoal.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/desambFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/entregaAmigavel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/quitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/reclamaSMS.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/reembolso.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/renegociacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/saldoDevedor.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/saqueFGTS.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/segundaVia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/statusCreditoFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/transferenciaDeDivida.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/Financiamento/veiculoApreendido.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/App/regressivoCanalApp.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Como funciona/comoFuncionaBvMerece.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Como funciona/comoFuncionaOrganizador.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Como funciona/comoFuncionaPix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Limite do cartao de credito/ajustarAumentarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Limite do cartao de credito/consultarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Limite do cartao de credito/liberarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Limite do cartao de credito/reducaoLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Organizador/ativarBoletoVirtualDDA.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Organizador/desativarBoletoVirtualDDA.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Organizador/problemasOrganizador.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Organizador/programarDebitoAutomatico.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Organizador/quantoCusta.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/cadastroChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/criarQRCodePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/devolverPix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/excluirChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/portabilidadeDeChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Pix/reinvidicacaoDePosseChavePix.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Todo Exclusivo/pagamentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/Todo Exclusivo/transbordo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/alteracaoCadastralResetDeSenha.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/anteciparPagamentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/autorizarCelular.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/bloqueioDeCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/campanha.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/comprovanteDePegamentoTransferencia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/contestarCompra.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/cumprimentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/dataDaFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/desbloqueioDeCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/despedida.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/documentoDeQuitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/elogio.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/emQuePossoAjudar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/excluir.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/extrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/gravame.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/hobby.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/idade.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/informeRendimentos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/insultoProblemasGenericos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/localNascimento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/ola.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/onboardingContaDigital.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/parcelamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/pedidoParaSair.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/problemasPontosMilhas.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/rastreioCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/renegociacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/saqueComCartaoBv.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/segundaViaDeContrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/solicitacaoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/timeQueTorce.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/transferenciaFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/transferencias.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/trocarDataDaFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/verFatura.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/BDA/voceUmRobo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/VerFatura/consultarLimite.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/acompanharAprovacaoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/acordoAmigavel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/cancelamentoCartao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/cancelarPortabilidade_Excluir.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/chavePixSumiu.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/comoFuncionaPortabilidade.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/depositoEmDinheiroNaContaBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/dinheiroNaoCaiuNaConta.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/mudancaNumeroBancoBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/portabilidadeDeSalario.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/ContaCartão/quantoCustaPortabilidadeDeSalario.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/Emprestimos/emprestimo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/Emprestimos/refinanciar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/Parceiros BV/lojasParceiras.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/Parceiros BV/queroSerSouParceiroBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/assuntosSensiveis.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/carne.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/compensaçãoDePagamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/contatosBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/contratacaoProdutoBV.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/ouvidoria.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Curadoria/siteDoBv.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Boletos/antecipacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Boletos/dda.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Boletos/pagamentoBoletoErrado.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Boletos/quitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Emprestimo/comprovantePGT.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Emprestimo/substituicaoDeVeiculoCVG.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/Emprestimo/substituicaoDeVeiculoProdVeiculos.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/cartaDeAnuencia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/comoFunciona_apreensao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/copiaDeContrato.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/creditoFacil.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/creditoPessoal.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/desambFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/entregaAmigavel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/quitacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/reclamaSMS.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/reembolso.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/renegociacao.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/saldoDevedor.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/saqueFGTS.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/segundaVia.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/statusCreditoFinanciamento.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/transferenciaDeDivida.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/Financiamento/veiculoApreendido.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/Web/regressivoCanalWeb.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/eVA/WhatsApp/numeroOficialWhatsApp.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/EvidenciaWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Modal/modal.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/myFeatures/file.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-report-21-01.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,23 +98,6 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projetoBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea projetoBase" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projectBase" />
       <extension name="coverage">
         <pattern>
@@ -365,12 +130,10 @@
       <item itemvalue="Cucumber Java.Scenario: Fluxo teste banco modal (1)" />
       <item itemvalue="Cucumber Java.Scenario: Fluxo teste banco modal" />
       <item itemvalue="JUnit.TestRunner (1)" />
-      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner (1)" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Fluxo teste banco modal (1)" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Fluxo teste banco modal" />

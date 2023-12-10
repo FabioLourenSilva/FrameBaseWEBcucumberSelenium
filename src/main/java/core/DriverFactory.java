@@ -9,8 +9,7 @@ public class DriverFactory {
 
     private static WebDriver driver;
     private static String webDriver = "webdriver.chrome.driver";
-    private static String pathDriver = "/Users/fabiolourenco/Desktop/WorkspacePessoal/AutomationWEB/src/main/resources/Drive/chromedriver";
-
+    private static String pathDriver = "/Users/fabiolourenco/Desktop/WorkspacePessoal/AutomationWEB/resources/Drive/chromedriver";
     public void createDriver() {
         System.setProperty(webDriver,pathDriver);
         ChromeOptions options = new ChromeOptions();
