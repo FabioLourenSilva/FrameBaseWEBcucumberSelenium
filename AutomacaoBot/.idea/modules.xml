@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AutomacaoMinhaBV.iml" filepath="$PROJECT_DIR$/.idea/AutomacaoMinhaBV.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaatfwui-bvbt-open-eva-manager/Automacao_Eva.iml" filepath="$PROJECT_DIR$/javaatfwui-bvbt-open-eva-manager/Automacao_Eva.iml" />
-    </modules>
-  </component>
-</project>
