@@ -1,5 +1,6 @@
 package core;
 
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,6 +23,9 @@ public class CommonsBasePage extends DriverFactory{
 
     public void sendTextElement(By element, String text) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element)).sendKeys(text);
+    }
+    public void clearElement(By element) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(element)).clear();
     }
 
     public void scrollAtElement(WebElement element) {
@@ -49,5 +53,12 @@ public class CommonsBasePage extends DriverFactory{
         wait.until(ExpectedConditions.visibilityOfElementLocated(element)).sendKeys(Keys.ENTER);
     }
 
+    public void dicoveryElement(By element, String value){
+        WebElement validation = getDriver().findElement(element);
+        String text = validation.getText();
+        Assert.assertEquals(value,text);
+        System.out.println("Texto Atual   : " + text);
+        System.out.println("Texto Esperado: " + value);
+    }
 
 }

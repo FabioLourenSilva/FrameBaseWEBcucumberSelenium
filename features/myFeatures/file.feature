@@ -1,13 +1,16 @@
 @AUTOMATION_FULL
 
-  Feature: Piloto
+  Feature: Gerenciamento de customers
 
 @TEST1
-    Scenario: Usuário atualiza lista Grocery grud
+    Scenario: Usuário edita customer na aplicação web
 
       Given que acessei a url \Web
-      When clico no button refresh
-      Then a lista atualiza
+      And   visualizo o customer
+      When  clico no botão
+      And   visualizo a tela de edição
+      And   edito a lista
+      Then  clico em go back to list e o sistema exibe a lista novamente
 
 
 

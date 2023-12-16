@@ -1,5 +1,6 @@
 package stepsDefinitions;
 
+import core.CommonsBasePage;
 import core.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,12 +17,46 @@ public class Steps {
     HomePage homePage = new HomePage();
     DialogManagerPage dialogManagerPage = new DialogManagerPage();
     ChatModal chatModal = new ChatModal();
+    CommonsBasePage options = new CommonsBasePage();
+
+
 
     DriverFactory drive = new DriverFactory();
 
     @Given("que acessei a url \\Web")
     public void que_acessei_a_url () {
         loginPage.goToSiteGrocercrud();
+    }
+
+    @Given("visualizo o customer")
+    public void visualizo_o_elemento() {
+    homePage.lookElement();
+    }
+    @When("clico no botão")
+    public void clico_no_botão() {
+        options.clickElement(By.xpath("/html/body/div[2]/div[2]/div[1]/div[2]/form/div[2]/table/tbody/tr[3]/td[2]/div[1]/a"));
+    }
+
+    @When("visualizo a tela de edição")
+    public void visualizo_a_tela_de_edição() {
+        options.dicoveryElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[1]"), "Edit Customer");
+    }
+
+    @When("edito a lista")
+    public void edito_a_lista()  {
+        options.clearElement(By.id("field-contactFirstName"));
+        options.sendTextElement(By.id("field-contactFirstName"), "Elias test");
+        options.clearElement(By.id("field-phone"));
+        options.sendTextElement(By.id("field-phone"), "55555555555");
+        options.clickElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[15]/div/button[1]"));
+        options.waitElementAppeared(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p"));
+        options.dicoveryElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p"),"Your data has been successfully updated. Go back to list");
+    }
+
+    @Then("clico em go back to list e o sistema exibe a lista novamente")
+    public void clico_em_go_back_to_list_e_o_sistema_exibe_a_lista_novamente() {
+       options.clickElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p/a"));
+       options.waitElementAppeared(By.xpath("/html/body/div[2]/div[2]/div[1]/div[1]/div[1]"));
     }
 
     @When("clico no button refresh")
@@ -54,8 +89,8 @@ public class Steps {
         chatModal.apertarEnterEVA();
     }
 
-    @When("clicar no botao {string}")
-    public void clicar_no_botao(String botao) {
+    @When("clico no botao {string}")
+    public void clico_no_botao(String botao) {
         chatModal.clicarBotao(botao);
     }
 //    @When("clicar no elemento {string}")

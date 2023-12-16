@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "features",
         glue = "stepsDefinitions",
         tags = "@TEST1",
-//        dryRun = true,
+        dryRun = false,
         plugin = {"pretty", "html:evidencias/evidenciaProjectBase-08-12.html"}
 )
 
