@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83f0a06c-14e2-4e58-b820-28f6f53816fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evidencias/evidenciaProjectBase-08-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/evidencias/evidenciaProjectBase-08-12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/myFeatures/file.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/myFeatures/file.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoBase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/CommonsBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/CommonsBasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinitions/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/DriverFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

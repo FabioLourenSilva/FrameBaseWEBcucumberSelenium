@@ -15,163 +15,91 @@ import pages.LoginPage;
 public class Steps {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
-    DialogManagerPage dialogManagerPage = new DialogManagerPage();
     ChatModal chatModal = new ChatModal();
     CommonsBasePage options = new CommonsBasePage();
 
-
-
-    DriverFactory drive = new DriverFactory();
-
     @Given("que acessei a url \\Web")
-    public void que_acessei_a_url () {
+    public void goToURL() {
         loginPage.goToSiteGrocercrud();
     }
 
-    @Given("visualizo o customer")
-    public void visualizo_o_elemento() {
-    homePage.lookElement();
+    @Given("visualizo o customer {string}")
+    public void viewTheCustomer(String customer) {
+    homePage.findCustomer(By.xpath("//*[contains(text(),'"+customer+"')]/../td[2]/div/a[contains(./@href, 'edit')]"));
     }
-    @When("clico no botão")
-    public void clico_no_botão() {
-        options.clickElement(By.xpath("/html/body/div[2]/div[2]/div[1]/div[2]/form/div[2]/table/tbody/tr[3]/td[2]/div[1]/a"));
+
+    @When("clico no botão editar do customer {string}")
+    public void clickOnButton(String customer) {
+        options.clickElement(By.xpath("//*[contains(text(),'"+customer+"')]/../td[2]/div/a[contains(./@href, 'edit')]"));
     }
 
     @When("visualizo a tela de edição")
-    public void visualizo_a_tela_de_edição() {
-        options.dicoveryElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[1]"), "Edit Customer");
+    public void viewScreenEdit() {
+        options.validateElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[1]"), "Edit Customer");
     }
 
     @When("edito a lista")
-    public void edito_a_lista()  {
+    public void editList()  {
         options.clearElement(By.id("field-contactFirstName"));
         options.sendTextElement(By.id("field-contactFirstName"), "Elias test");
         options.clearElement(By.id("field-phone"));
         options.sendTextElement(By.id("field-phone"), "55555555555");
         options.clickElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[15]/div/button[1]"));
         options.waitElementAppeared(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p"));
-        options.dicoveryElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p"),"Your data has been successfully updated. Go back to list");
+        options.validateElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p"),"Your data has been successfully updated. Go back to list");
     }
 
     @Then("clico em go back to list e o sistema exibe a lista novamente")
-    public void clico_em_go_back_to_list_e_o_sistema_exibe_a_lista_novamente() {
+    public void goBackToList() {
        options.clickElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/form/div[14]/div[2]/p/a"));
        options.waitElementAppeared(By.xpath("/html/body/div[2]/div[2]/div[1]/div[1]/div[1]"));
     }
 
     @When("clico no button refresh")
-    public void clico_no_button_refresh() {
+    public void clickButtonRefresh() {
         homePage.refreshListGrocercrud();
     }
 
-    @Then("a lista atualiza")
-    public void a_lista_atualiza() {
-        //for implementation
-    }
-
-    @When("eu digitar a intencao BV {string}")
-    public void eu_digitar_a_intencao_MinhaBV(String intent) {
-        chatModal.escreverIntentMinhaBV(intent);
-    }
-
-    @When("enviar a mensagem BV")
-    public void enviar_a_mensagem_MinhaBV() {
-        chatModal.apertarEnterMinhaBV();
-    }
-
-    @When("eu digitar a intencao {string}")
-    public void eu_digitar_a_intencao(String intent) {
+    @When("usuario digita a intencao {string}")
+    public void toTypeIntent(String intent) {
         chatModal.escreverIntentEVA(intent);
     }
 
-    @When("enviar a mensagem")
-    public void enviar_a_mensagem() {
+    @When("usuario envia a mensagem")
+    public void sendMensage() {
         chatModal.apertarEnterEVA();
     }
 
-    @When("clico no botao {string}")
-    public void clico_no_botao(String botao) {
+    @When("usuario cliaca no botao {string}")
+    public void clickOnTheButton(String botao) {
         chatModal.clicarBotao(botao);
     }
-//    @When("clicar no elemento {string}")
-//    public void clicar_no_elemento(String string) {
-//        chatModal.clicarElemento(string);
-//    }
-@Given("clicar no elemento {string}")
-public void clicar_no_elemento(String string) {
+
+    @Given("usuario clicar no elemento {string}")
+    public void clickOnTheElement(String string) {
     chatModal.clicarElemento(string);
 }
 
     @When("selecionar data")
-    public void selecionar_data() {
-        chatModal.selecionarData();
+    public void selectDate() {
+
     }
 
-    @When("selecionar data atraso")
-    public void selecionar_data_atraso() {
-        chatModal.selecionarDataAtraso();
-    }
 
-    @When("validar data do botao selecionar data")
-    public void validar_data_do_botao_selecionar_data() {
-        chatModal.validarDataVectoBotao();
-    }
-
-    @When("rolar pagina pagamento")
-    public void rolar_pagina_Pagamento() {
+    @When("usuario rola Pagina")
+    public void scrollPage() {
       chatModal.rolarPaginaPagamento();
     }
 
-    @When("rolar pagina boleto")
-    public void rolar_pagina_boleto() {
-        chatModal.rolarPaginaBoleto();
-    }
 
-    @When("rolar pagina boleto2")
-    public void rolar_pagina_boleto2() {
-        chatModal.rolarPaginaBoleto2();
-    }
-
-    @When("validar datas vencimento")
-    public void validar_datas_vencimento(){
-        chatModal.validaDataVecto();
-    }
-
-    @When("validar composicao boleto")
-    public void validar_composicao_boleto() {
-        chatModal.validaComposicaoBoleto();
-    }
-
-    @When("validar composicao boleto2")
-    public void validar_composicao_boleto2() {
-        chatModal.validaComposicaoBoleto2();
-    }
-
-    @Given("validar menu inicial modalmais")
-    public void validar_menu_inicial_modalmais() {
-        chatModal.validarConteudo(By.xpath("/html/body/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div[1]/p[2]"),
-                "Faça compras\ncom seu cartão de débito do investidor");
-        chatModal.validarConteudo(By.xpath("/html/body/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div[2]/p[2]"),
-                "Pague suas\ncontas usando seus rendimentos");
-        chatModal.validarConteudo(By.xpath("/html/body/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div[3]/p[2]"),
-                "Saldo em\nconta garantido pelo FGC");
-        chatModal.validarConteudo(By.xpath("/html/body/div[2]/div/div[3]/div/div[2]/div[3]/div/div/div[4]/p[2]"),
-                "Taxa zero para TED e manutenção de conta");
-    }
-
-    @Then("Sou direcionado para a pagina modalMais")
-    public void sou_direcionado_para_a_pagina_modal_mais() {
-       drive.trocarAba();
-    }
-
-    @Then("Sou direcionado para tela de login")
-    public void sou_direcionado_para_tela_de_login() {
+    @Then("usuario é direcionado para tela de login")
+    public void redirectScreenLogin() {
        chatModal.validarConteudo(By.xpath("/html/body/div[1]/section/section/div/div[1]/div[1]/h4"),
                "Acesse sua conta");
     }
 
     @Then("validar conteudo \\(ballon {int}) {string}")
-    public void validar_conteudo_ballon(Integer ballon, String conteudo) {
+    public void validateConditionContent(Integer ballon, String conteudo) {
 
         switch (ballon) {
             case 3:
@@ -213,82 +141,9 @@ public void clicar_no_elemento(String string) {
             case 15:
                 chatModal.validarConteudoDecimoQuintoBalao(conteudo);
                 break;
-            case 30:
-                chatModal.validarConteudoTrigesimoBalao(conteudo);
-                break;
-            case 31:
-                chatModal.validarConteudoTrigesimoPrimeiroBalao(conteudo);
-                break;
-            case 32:
-                chatModal.validarConteudoTrigesimoSegundoBalao(conteudo);
-                break;
-            case 33:
-                chatModal.validarConteudoTrigesimoTerceiroBalao(conteudo);
-                break;
-            case 34:
-                chatModal.validarConteudoTrigesimoQuartoBalao(conteudo);
-                break;
-            case 35:
-                chatModal.validarConteudoTrigesimoQuintoBalao(conteudo);
-                break;
-            case 36:
-                chatModal.validarConteudoTrigesimoSextoBalao(conteudo);
-                break;
-            case 37:
-                chatModal.validarConteudoTrigesimoSetimoBalao(conteudo);
-                break;
-            case 38:
-                chatModal.validarConteudoTrigesimoOitavoBalao(conteudo);
-                break;
-            case 39:
-                chatModal.validarConteudoTrigesimoNonoBalao(conteudo);
-                break;
-            case 40:
-                chatModal.validarConteudoQuadragesimoBalao(conteudo);
-                break;
-            case 41:
-                chatModal.validarConteudoQuadragesimoPrimeiroBalao(conteudo);
-                break;
-            case 42:
-                chatModal.validarConteudoQuadragesimoSegundoBalao(conteudo);
-                break;
-            case 43:
-                chatModal.validarConteudoQuadragesimoTerceiroBalao(conteudo);
-                break;
-            case 44:
-                chatModal.validarConteudoQuadragesimoQuartoBalao(conteudo);
-                break;
-            case 45:
-                chatModal.validarConteudoQuadragesimoQuintoBalao(conteudo);
-                break;
-            case 46:
-                chatModal.validarConteudoQuadragesimoSextoBalao(conteudo);
-                break;
-            case 47:
-                chatModal.validarConteudoQuadragesimoSetimoBalao(conteudo);
-                break;
-            case 48:
-                chatModal.validarConteudoQuadragesimoOitavoBalao(conteudo);
-                break;
-            case 49:
-                chatModal.validarConteudoQuadragesimoNonoBalao(conteudo);
-                break;
-            case 50:
-                chatModal.validarConteudoQuintagesimoBalao(conteudo);
-                break;
-            case 51:
-                chatModal.validarConteudoQuintagesimoPrimeiroBalao(conteudo);
-                break;
-            case 52:
-                chatModal.validarConteudoQuintagesimoSegundoBalao(conteudo);
-                break;
             default:
-                System.out.println("A opção requisitada não existe!");
-                if (ballon instanceof Integer) {
-                    System.out.println("Programar!!");
-                } else {
-                    System.out.println("Podemos ignorar...");
-                }
+                System.out.println(":::Não existe o locator do conteudo, programar!:::");
+
         }
     }
 }

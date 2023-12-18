@@ -12,18 +12,16 @@ import static org.junit.Assert.assertTrue;
 public class CommonsBasePage extends DriverFactory{
 
      WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
-
-
-    Actions builder = new Actions(getDriver());
+     Actions builder = new Actions(getDriver());
 
     public void clickElement(By element) {
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-
     }
 
     public void sendTextElement(By element, String text) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element)).sendKeys(text);
     }
+
     public void clearElement(By element) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(element)).clear();
     }
@@ -53,7 +51,7 @@ public class CommonsBasePage extends DriverFactory{
         wait.until(ExpectedConditions.visibilityOfElementLocated(element)).sendKeys(Keys.ENTER);
     }
 
-    public void dicoveryElement(By element, String value){
+    public void validateElement(By element, String value){
         WebElement validation = getDriver().findElement(element);
         String text = validation.getText();
         Assert.assertEquals(value,text);

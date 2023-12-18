@@ -9,11 +9,9 @@ public class LoginPage extends CommonsBasePage {
     private final String LOGIN = "";
     private final String SENHA = "";
 
-
-
-    By inputEmail = By.id("username");
-    By inputSenha = By.id("password");
-    By buttonEntrar = By.name("login");
+    By inputEmail = By.id("");
+    By inputSenha = By.id("");
+    By buttonEntrar = By.name("");
 
     public void goToSiteGrocercrud() {
         getDriver().navigate().to(URL_SITE1);
